@@ -2,6 +2,23 @@
 
 MNIST1D.jl provides a small, reproducible and configurable Julia dataset for machine learning research. Each observation is a one-dimensional signal representing a transformed digit template. The default dataset has 4,000 training examples and 1,000 test examples, each with 40 features. Generation happens in memory when `dataset()` is called, so no data download or local cache is required.
 
+## Installation
+
+MNIST1D.jl is not registered. Install it directly from GitHub using Julia's package manager:
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/thimotedupuch/MNIST1D.jl")
+```
+
+Alternatively, press `]` in the Julia REPL and run:
+
+```julia-repl
+pkg> add https://github.com/thimotedupuch/MNIST1D.jl
+```
+
+## Usage
+
 ```julia
 using MNIST1D
 
