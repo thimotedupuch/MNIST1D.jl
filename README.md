@@ -13,7 +13,7 @@ Pkg.add(url="https://github.com/thimotedupuch/MNIST1D.jl")
 
 Alternatively, press `]` in the Julia REPL and run:
 
-```julia-repl
+```julia
 pkg> add https://github.com/thimotedupuch/MNIST1D.jl
 ```
 
