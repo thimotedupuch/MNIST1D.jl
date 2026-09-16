@@ -1,0 +1,9 @@
+MNIST1D.jl is an independent Julia implementation of the MNIST-1D dataset
+procedure introduced by:
+
+Sam Greydanus and Dmitry Kobak, “Scaling down deep learning with MNIST-1D,”
+Proceedings of the 41st International Conference on Machine Learning, 2024.
+
+The upstream transformation implementation credits Sam Greydanus and Peter
+Steinbach.
+

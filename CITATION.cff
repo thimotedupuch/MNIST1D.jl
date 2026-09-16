@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use MNIST-1D, please cite the original paper by Sam Greydanus and Dmitry Kobak."
+title: "The MNIST-1D dataset"
+type: dataset
+authors:
+  - family-names: Greydanus
+    given-names: Sam
+  - family-names: Kobak
+    given-names: Dmitry
+abstract: "A minimalist, procedurally generated benchmark for machine learning research."
+repository-code: "https://github.com/greydanus/mnist1d"
+preferred-citation:
+  type: conference-paper
+  title: "Scaling down deep learning with MNIST-1D"
+  authors:
+    - family-names: Greydanus
+      given-names: Sam
+    - family-names: Kobak
+      given-names: Dmitry
+  year: 2024
+  collection-title: "Proceedings of the 41st International Conference on Machine Learning"
+  url: "https://arxiv.org/abs/2011.14439"
